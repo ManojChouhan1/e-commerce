@@ -15,6 +15,7 @@ import {
   // Link,
   // Outlet
 } from "react-router-dom";
+import About from './About';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Header />
             <Routes>
               <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
               <Route path="/shop" element={<Shop />} />
               <Route path="/single-product" element={<SingleProduct />} />
               <Route path="/checkout" element={<Checkout />} />
